@@ -63,7 +63,7 @@
    ```
 
    - 按提示选择 CA 服务器、注册邮箱、DNS 服务商等
-   - CA服务器可参考[CA服务器配置]((https://github.com/acmesh-official/acme.sh/wiki/Server))
+   - CA服务器可参考[CA配置](https://github.com/acmesh-official/acme.sh/wiki/Server)
    - DNS AP配置可参考[API配置](https://github.com/acmesh-official/acme.sh/wiki/dnsapi)
    - 生成 `config.ini` 文件后，修改其中的参数：
    - 修改 `TEST_MODE=1` (开启测试模式)
