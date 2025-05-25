@@ -11,8 +11,8 @@
 
 | 功能 | 说明 |
 | --- | --- |
-| **多 CA 选择** |   LetsEncrypt、ZeroSSL、BuyPass、SSL.com、Google Public CA 等常见 ACME CA 均内置短名称 |
-| **多 DNS API** |   腾讯云、阿里云、Cloudflare … 以及任意 `acme.sh --dns` 插件 |
+| **[多 CA 选择](https://github.com/acmesh-official/acme.sh/wiki/Server)** |   LetsEncrypt、ZeroSSL、BuyPass、SSL.com、Google Public CA 等常见 ACME CA 均内置短名称 |
+| **[多 DNS API](https://github.com/acmesh-official/acme.sh/wiki/dnsapi)** |   腾讯云、阿里云、Cloudflare … 以及任意 `acme.sh --dns` 插件 |
 | **核心容器化** |  只需一个 `acme.sh` 轻量容器，宿主系统零依赖 |
 | **自动续期**   |  按 `SCHEDULE_INTERVAL` 周期执行；剩余 ≤ 7 天自动续期 |
 | **数据库同步** |  把 `valid_to` 与 `issued_by` 写回 `trim_connect.cert` 表 |
@@ -63,6 +63,8 @@
    ```
 
    - 按提示选择 CA 服务器、注册邮箱、DNS 服务商等
+   - CA服务器可参考[CA服务器配置]((https://github.com/acmesh-official/acme.sh/wiki/Server))
+   - DNS AP配置可参考[API配置](https://github.com/acmesh-official/acme.sh/wiki/dnsapi)
    - 生成 `config.ini` 文件后，修改其中的参数：
    - 修改 `TEST_MODE=1` (开启测试模式)
 
