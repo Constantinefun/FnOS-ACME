@@ -1,0 +1,9 @@
+services:
+  acme.sh:
+    image: neilpang/acme.sh
+    container_name: acme.sh
+    restart: always
+    volumes:
+      - /vol1/1000/docker/acme/acme.sh:/acme.sh
+    network_mode: host
+    command: daemon
