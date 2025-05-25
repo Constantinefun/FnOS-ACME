@@ -1,4 +1,4 @@
-# FnOS自动化 ACME 证书自动化管理（Docker）
+# FnOS自动化 ACME 证书管理（Docker）
 
 基于 **[acme.sh](https://github.com/acmesh-official/acme.sh)** + Docker 
 适用于FnOS系统：
