@@ -30,8 +30,7 @@
 │   └── cer_update.sh       # 证书更新主脚本
 ├── LICENSE               # 许可证文件
 ├── README.md             # 本文件（中文说明）
-├── README_en.md          # 英文说明
-└── config.ini            # （首次运行后生成）
+└── README_en.md          # 英文说明
 ```
 
 ## 快速开始
